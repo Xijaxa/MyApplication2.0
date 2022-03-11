@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             editTextFile.getText().clear();
             while((s = br.readLine()) != null) {
                 //System.out.println(s);
-                editTextFile.append(s);
+                editTextFile.append(s + "\n");
             }
 
             ins.close();
